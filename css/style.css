@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: poppins, sans-serif;
+}
+/****************** Elements ****************/
+
+.name,
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #30475e;
+  font-weight: lighter;
+  font-size: 3.125rem;
+  margin-top: 3.125rem;
+}
+.dev,
+h2 {
+  color: #30475e;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+h3 {
+  color: #30475e;
+}
+
+a {
+  text-decoration: none;
+  color: #222831;
+  display: inline-block;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 7px;
+  color: #dee1e4;
+  width: 4%;
+}
+
+/****************** Top ****************/
+
+.top-container {
+  background-color: #dddddd;
+  position: relative;
+  padding-top: 6.25rem;
+}
+
+.dev {
+  font-size: 1.5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 15rem;
+  top: 4.375rem;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 15rem;
+  bottom: 20rem;
+}
+
+/****************** Middle ****************/
+
+.middle-container {
+}
+
+.profile {
+  width: 50%;
+  margin: 6.25rem auto;
+  line-height: 2;
+}
+
+.skills {
+  margin: 6.25rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.webdev-img {
+  width: 30%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.bike-img {
+  width: 30%;
+  float: right;
+  margin-left: 1.875rem;
+}
+
+/****************** Contact ****************/
+
+.contact-me {
+  line-height: 2;
+  margin: 6.25rem;
+}
+
+.contact-me .btn {
+  background-color: antiquewhite;
+  padding: 0.5rem 1.562rem;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #fcf0e1;
+}
+
+/****************** Bottom ****************/
+
+.bottom-container {
+  background-color: #30475e;
+  color: #dddddd;
+  padding: 3.125rem;
+}
+
+.footer-link {
+  color: #dddddd;
+  margin: auto 1.25rem 1.25rem 1.25rem;
+}
+
+.footer-link:hover {
+  color: antiquewhite;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
